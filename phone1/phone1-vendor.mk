@@ -7,8 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
-    vendor/nothing/phone1/proprietary/system/etc/permissions/com.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dirac.acs.xml \
-    vendor/nothing/phone1/proprietary/system/etc/sysconfig/preinstalled-packages-dirac.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-dirac.xml \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_off/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_off/ans_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/ans_on/ans_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/ans_on/ans_config.txt \
     vendor/nothing/phone1/proprietary/system_ext/etc/hdr_config/main_inv_ls/RPP_BiquadHPF_config.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hdr_config/main_inv_ls/RPP_BiquadHPF_config.txt \
@@ -212,11 +210,9 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_effects.conf \
-    vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_effects.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_io_policy.conf \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_platform_info_intcodec.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_platform_info_yupikqrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_platform_info_yupikqrd.xml \
-    vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_policy_configuration.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_policy_volumes.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_tuning_mixer.txt \
     vendor/nothing/phone1/proprietary/vendor/etc/audio/sku_yupik/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/default_volume_tables.xml \
@@ -263,8 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/nothing/phone1/proprietary/vendor/etc/dirac/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/dirac_resource.dar \
-    vendor/nothing/phone1/proprietary/vendor/etc/dirac/interface.json:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/interface.json \
     vendor/nothing/phone1/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/init/android.hardware.authsecret@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret@1.0-service-qti.rc \
     vendor/nothing/phone1/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -371,7 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/lvacfs_params/4mic/audiozoom_13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/audiozoom_13.txt \
     vendor/nothing/phone1/proprietary/vendor/etc/lvacfs_params/4mic/audiozoom_4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/audiozoom_4.txt \
     vendor/nothing/phone1/proprietary/vendor/etc/media/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media/video_system_specs.json \
-    vendor/nothing/phone1/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_codecs_performance_yupik_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_v0.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_codecs_performance_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_yupik_v1.xml \
@@ -705,7 +698,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/nothing/phone1/proprietary/vendor/lib/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdirac.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/nothing/phone1/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
@@ -799,7 +791,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/lib/rfsa/adsp/libvpp_ais_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_ais_networks.so \
     vendor/nothing/phone1/proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpt_action_recognition.so \
     vendor/nothing/phone1/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/nothing/phone1/proprietary/vendor/lib/soundfx/libdiraceffect-afm.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdiraceffect-afm.so \
     vendor/nothing/phone1/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/nothing/phone1/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/nothing/phone1/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
@@ -1375,8 +1366,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
-    DiracAudioControlService_DMP \
-    NothingDiracService_DMP \
     CACertService \
     CneApp \
     ConnectionSecurityService \
